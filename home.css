@@ -8,10 +8,6 @@ h1   {
     color: blue;
 }
 
-p    {
-    color: red;
-}
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -39,4 +35,19 @@ li a:hover {
 .main {
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.image-caption {
+  margin-bottom: 0;
+}
+
+.cat-getting-pet {
+  height: 285px;
+  width: 285px;
+  background-image: url("assets/cat-1.webp");
+  border: 0;
+}
+
+.cat-getting-pet:active {
+  background-image: url("assets/cat-2.webp");
 }

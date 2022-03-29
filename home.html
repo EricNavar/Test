@@ -1,31 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!–– Favicon is the image that shows in the browser tab. ––>
-    <link rel="icon" href="favicon.ico" />
-    <!–– Color that shows up on Android browser UI ––>
-    <meta name="theme-color" content="#ff0000" />
-    <meta
-      name="description"
-      content="Check out Eric Navar's cool and awesome personal website!"
-    />
-    <meta
-      name="author"
-      content="Joe Mama"
-    />
-    <meta
-      name="keywords"
-      content=""
-    />
-    <meta
-      name="application-name"
-      content="Pepito website"
-    />
-    <title>HTML 5 Boilerplate</title>
-    <link rel="stylesheet" href="home.css">
+      <link rel="icon" href="favicon.ico" />
+      <!–– Color that shows up on Android browser UI ––>
+        <meta name="theme-color" content="#ff0000" />
+        <meta name="description" content="Check out Eric Navar's cool and awesome personal website!" />
+        <meta name="author" content="Joe Mama" />
+        <meta name="keywords" content="" />
+        <meta name="application-name" content="Pepito website" />
+        <title>My First Website</title>
+        <link rel="stylesheet" href="home.css">
   </head>
+
   <body>
     <ul>
       <li><a href="#home">Home</a></li>
@@ -35,25 +25,30 @@
     </ul>
 
     <div class="main">
-      <a href="the-last-supper.jpg" download>
-        <img src="the-last-supper.jpg" alt="Cats at dinner">
+      <h1 style="font-size:60px;">The Pepe website</h1>
+
+      <p class="image-caption">Image of the Last Supper</p>
+      <a href="assets/the-last-supper.jpg" download>
+        <img src="assets/the-last-supper.jpg" alt="Cats at dinner">
       </a>
 
-      <h1 style="font-size:60px;">The Pepe website</h1>
-      <a href="https://twitter.com/bellagible" target="_blank"
-        framename="framename">
+      <br/>
+      <p class="image-caption">Pet me!</p>
+      <button id="pet-cat" class="cat-getting-pet"></button>
+
+      <h2 style="color:red">Things Pepe is capable of doing: </h2>
+      <ol>
+        <li>Shit on the carpet</li><br>
+        <li>Pee on the carpet</li><br>
+        <li>Shit in the car</li>
+      </ol>
+      <br/>
+      <a href="https://twitter.com/bellagible" target="_blank" framename="framename">
         Pepe's twitter
       </a>
-        <button title="Please press">Pet Pepe</button><br>
-        <img src="Pepe.jpg" alt="Pepe being ugly"
-          style="width:80px;height:200px;">
+      <br/>
+      <iframe id="lofi-beats-video" width="1250" height="703" src="https://www.youtube.com/embed/f02mOEt11OQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </body>
 
-        <h3 style="color:red">Things Pepe is capable of doing: </h3>
-        <ol>
-          <li>Shit on the carpet</li><br>
-          <li>Pee on the carpet</li><br>
-          <li>Shit in the car</li>
-        </ol>
-      </div>
-    </body>
-  </html>
+</html>
