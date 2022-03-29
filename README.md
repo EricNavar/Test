@@ -23,3 +23,7 @@
 ## Publish
 - Click on the Settings tab
 - Click on the Pages tab
+- Under "Source", click on the dropdown and select the default branch, which is either master or main.
+- Click save
+- A url will popup that looks like: https://github.com/[your username]/[your repository name]/settings/pages
+- It may take a few minutes for your website to appear here
