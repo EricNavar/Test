@@ -4,8 +4,8 @@ body {
   margin: 0;
 }
 
-h1   {
-    color: blue;
+h1 {
+  color: blue;
 }
 
 .navigation-bar {
@@ -62,3 +62,8 @@ li a:hover {
   border-width: 1px;
 }
 
+.resources {
+  display: grid;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
