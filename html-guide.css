@@ -65,10 +65,34 @@ table, th, td {
 }
 
 .hover-click:hover {
-    background-color: #e0e0e0;
+    background-color: #c0c0c0;
 }
 
 .transition {
     transition-duration: 0.25s;
     transition-timing-function: ease-in-out;
+}
+
+.big-rectangle {
+    height: 300px;
+    width: 500px;
+}
+
+.picture-background-1 {
+    background: url("https://wallpapercave.com/uwp/uwp2030797.jpeg");
+    background-size: contain;
+}
+
+.picture-background-2 {
+    background: url("assets/the-last-supper.jpg");
+    background-size: cover;
+}
+
+.solid-background {
+    background: blue;
+}
+
+.gradient-background {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);    
 }
