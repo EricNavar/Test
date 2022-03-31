@@ -45,13 +45,13 @@ li a:hover {
 .cat-getting-pet {
   height: 300px;
   width: 300px;
-  background-image: url("assets/cat-1.webp");
+  background-image: url("[LINK TO IMAGE OF YOUR PET]");
   background-size: contain; 
   border: 0;
 }
 
 .cat-getting-pet:active {
-  background-image: url("assets/cat-2.webp");
+  background-image: url("[LINK TO IMAGE OF YOUR PET WHILE IT IS HAPPY OR BING PET]");
 }
 
 .images {
@@ -71,7 +71,7 @@ li a:hover {
 }
 
 .landingScreenImage {
-  background-image: url("assets/the-last-supper.jpg");
+  background-image: url("[LINK TO LARGE IMAGE THAT THE USER WILL SEE AT THE TOP]");
   height: calc(100vh - 58px);
   position: relative;
   background-size: cover;
@@ -80,7 +80,7 @@ li a:hover {
 }
 
 .copyright {
-  margin-left: 40px;
+  margin-bottom: 40px;
 }
 
 .bannerContainer {
@@ -149,4 +149,24 @@ li a:hover {
 .image-container {
   margin-top: 20px;
   margin-right: 40px;
+}
+
+.social-link {
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  background-color: #4b42f5;
+  display: inline-flex;
+  margin-bottom: 28px;
+}
+
+.icon {
+  height: 36px;
+  width: 36px;
+  margin: auto;
+}
+
+.welcome {
+  margin-left: 20px;
+  font-size: 1.5rem;
 }
