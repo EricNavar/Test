@@ -44,12 +44,12 @@ li a:hover {
 .cat-getting-pet {
   height: 285px;
   width: 285px;
-  background-image: url("URL TO PICTURE OF YOUR PET");
+  background-image: url("assets/cat-1.webp");
   border: 0;
 }
 
 .cat-getting-pet:active {
-  background-image: url("URL TO PICTURE OF YOUR CAT GETTING PET OR BEING HAPPY");
+  background-image: url("assets/cat-2.webp");
 }
 
 .images {
