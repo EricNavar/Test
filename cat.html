@@ -8,30 +8,36 @@
     <link rel="icon" href="favicon.ico" />
     <!-- Color that shows up on Android browser UI -->
     <meta name="theme-color" content="#ff0000" />
-    <meta name="description" content="Check out Eric Navar's cool and awesome personal website!" />
+    <meta name="description" content="Write a description of your website here and it will show up in previews like in messaging apps and Google." />
     <meta name="author" content="Joe Mama" />
-    <meta name="keywords" content="" />
+    <!-- These are keywords that Google will use to associate with your site in search results. -->
+    <meta name="keywords" content="HTML CSS Web" />
     <meta name="application-name" content="Pepito website" />
     <title>My First Website</title>
+
+    <!-- Importing the CSS file cat.css -->
     <link rel="stylesheet" href="cat.css">
   </head>
 
   <body>
     <ul class="navigation-bar">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#news">News</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="#about">About</a></li>
+      <li><a href="https://ericnavar.github.io/pet-website/html-guide.html">HTML Guide</a></li>
+      <li><a href="https://ericnavar.github.io/pet-website/css-guide.html">CSS Guide</a></li>
+      <li><a href="https://ericnavar.github.io/pet-website/intro-to-web-dev-guide.html">Intro to Web Dev</a></li>
+      <li><a href="https://ericnavar.github.io/pet-website/cat.html">Completed site</a></li>
+      <li><a href="https://github.com/EricNavar/pet-website">Repository</a></li>
     </ul>
 
     <div>
+
       <div class="landingScreenImage">
         <div class="bannerContainer">
           <h1 class="bannerTop bannerText">Cat Fan Club</h1>
           <h2 class="bannerBottom bannerText">#ILOVEMYCAT</h2>
         </div>
       </div>
-      <p>Welcome to my cat's official fan page! </p>
+
+      <p class="welcome">Welcome to my cat's official fan page! </p>
       <div class="card">
         <p><b>Top 5 things my cat does:</b></p>
         <ol>
@@ -40,6 +46,7 @@
           <li>Shit in the car</li>
         </ol>
       </div>
+
     </div>
 
     <div class="main">
@@ -65,7 +72,7 @@
         framename="framename"
         class="social-link"
       >
-        <img src="assets/icons8-instagram.svg" class="icon"/>
+        <img src="assets/instagram.svg" class="icon"/>
       </a>
 
       <a
@@ -74,22 +81,16 @@
         framename="framename"
         class="social-link"
       >
-        <img src="assets/icons8-twitter.svg" class="icon"/>
+        <img src="assets/twitter.svg" class="icon"/>
       </a>
       <br/>
-      
-      <iframe id="lofi-beats-video" style="max-width:100%;" width="800" height="450" src="https://www.youtube.com/embed/f02mOEt11OQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <div class="resources">
-        <h2>Resources</h2>
-        <a target="_blank" href="html-guide.html">HTML Guide</a>
-        <a target="_blank" href="css-guide.html">CSS Guide</a>
-        <a target="_blank" href="intro-to-web-dev-guide.html">Intro to Web Dev Guide</a>
-        <a target="_blank" href="blank.html">boilerplate code for blank HTML document</a>
-        <a target="_blank" href="index.html">template to make your own website for your pet</a>
-        <a target="_blank" href="https://github.com/EricNavar/pet-website">Project Repository on GitHub</a>
+
+      <div style="max-width:100%;">
+        <!-- This is an iframe showing a YouTube video. To use a different YouTube video, play the vide on YouTube. Right-click on it and click "copy embed code". Then paste it here. -->
+        <iframe width="866" height="487" src="https://www.youtube.com/embed/5qap5aO4i9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
+      <p class="copyright">© 2022 Your Mom</p>
     </div>
-    <p class="copyright">© 2022 Your Mom</p>
   </body>
 
 </html>
