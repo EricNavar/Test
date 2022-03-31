@@ -14,6 +14,7 @@ h1 {
   padding: 0;
   overflow: hidden;
   background-color: #333333;
+  height: 58px;
 }
 
 .navigation-bar li {
@@ -38,13 +39,14 @@ li a:hover {
 }
 
 .image-caption {
-  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .cat-getting-pet {
-  height: 285px;
-  width: 285px;
+  height: 300px;
+  width: 300px;
   background-image: url("assets/cat-1.webp");
+  background-size: contain; 
   border: 0;
 }
 
@@ -66,4 +68,85 @@ li a:hover {
   display: grid;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.landingScreenImage {
+  background-image: url("assets/the-last-supper.jpg");
+  height: calc(100vh - 58px);
+  position: relative;
+  background-size: cover;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  overflow: hidden;
+}
+
+.copyright {
+  margin-left: 40px;
+}
+
+.bannerContainer {
+  transform: rotate(-7deg);
+  position: absolute;
+  bottom: 20px;
+  right: 12px;
+}
+
+.bannerTop {
+  background: navy;
+}
+
+.bannerBottom {
+  background: blue;
+  width: max-content;
+  margin-left: auto !important;
+}
+
+.bannerText {
+  margin: 0px;
+  padding: 12px;
+  color: white;
+  font-size: 2.125rem;
+  font-weight: 800;
+  line-height: 1.235;
+}
+
+.listItem {
+  display: flex;
+  -moz-box-pack: start;
+  justify-content: flex-start;
+  -moz-box-align: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+  padding: 8px 16px;
+}
+
+.card {
+  background-color: #3480eb;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  border-radius: 8px;
+  border-color: red;
+  border-width: 3px;
+  border-style: solid;
+  padding: 14px;
+  margin-left: 25%;
+  margin-right: 25%;
+
+  font-size: 18px;
+  line-height: 0.9;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+      margin-right: 32px;
+      margin-left: 32px;
+  }
+}
+
+.image-container {
+  margin-top: 20px;
+  margin-right: 40px;
 }
