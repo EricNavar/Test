@@ -24,33 +24,10 @@
 
     <div class="grid-item">
       <h2>Size</h2>
-      <div class="black-border" style="width: 200px">width: 100px</div>
+      <div class="black-border" style="width: 96px">width: 96px</div>
       <div class="black-border" style="width: 50%">width: 50%</div>
       <div class="black-border" style="width: 100%">width: 100%</div>
       <div class="black-border"></div>
-    </div>
-
-    <div class="grid-item">
-      <h2>Spacing</h2>
-      Padding is space between the border of an element and the content.
-      <div style="margin-bottom: 32px;">
-        <button style="padding:0">button with 0 padding</button>
-        <button style="padding:20px">button with 50 padding</button>
-      </div>
-      Margin is space between the border of an element and the content.
-      <div class="flex-box">
-        <div class="square black-border" style="margin:0">0 margin</div>
-        <div class="square black-border" style="margin:0">0 margin</div>
-        <div class="square black-border" style="margin:0">0 margin</div>
-        <div class="square black-border" style="margin:0">0 margin</div>
-        <div class="square black-border" style="margin:0">0 margin</div>
-        <div style="width:100%"></div>
-        <div class="square black-border" style="margin:20">20 margin</div>
-        <div class="square black-border" style="margin:20">20 margin</div>
-        <div class="square black-border" style="margin:20">20 margin</div>
-        <div class="square black-border" style="margin:20">20 margin</div>
-        <div class="square black-border" style="margin:20">20 margin</div>
-      </div>
     </div>
 
     <div id="font-size" class="grid-item">
@@ -109,6 +86,29 @@
       <div class="square black-border" style="border-width: 4px;">border-width: 4px</div>
     </div>
 
+    <div class="grid-item">
+      <h2>Spacing</h2>
+      Padding is space between the border of an element and the content.
+      <div style="margin-bottom: 32px;">
+        <button style="padding:0">button with 0 padding</button>
+        <button style="padding:20px">button with 20 padding</button>
+      </div>
+      Margin is space between the border of an element and the content.
+      <div class="flex-box">
+        <div class="square black-border" style="margin:0">0 margin</div>
+        <div class="square black-border" style="margin:0">0 margin</div>
+        <div class="square black-border" style="margin:0">0 margin</div>
+        <div class="square black-border" style="margin:0">0 margin</div>
+        <div class="square black-border" style="margin:0">0 margin</div>
+        <div style="width:100%"></div>
+        <div class="square black-border" style="margin:20">20 margin</div>
+        <div class="square black-border" style="margin:20">20 margin</div>
+        <div class="square black-border" style="margin:20">20 margin</div>
+        <div class="square black-border" style="margin:20">20 margin</div>
+        <div class="square black-border" style="margin:20">20 margin</div>
+      </div>
+    </div>
+
     <div class="grid-item flex-box">
       <h2 className="">Hover and click effects</h2>
       <button class="button hover-click">Hover and click</button>
@@ -126,6 +126,14 @@
       <p>Background is a local image</p>
       <div class="big-rectangle picture-background-2"></div>
     </div>
+
+    <button onclick="sayHello()">Click me</button>
+
+    <script>
+      function sayHello() {
+        console.log("Hello world!");
+      }
+    </script>  
   </body>
 
 </html>
